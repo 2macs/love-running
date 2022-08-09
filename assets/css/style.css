@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald&display=swap');
+
+/* the asterisk applies the rules to all elements, general rule so up near top */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
 body {
-    font-family: Arial ;
+    font-family: lato, sans-serif;
+    font-weight: 300;
 }
