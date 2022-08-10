@@ -46,3 +46,11 @@ h1, h2 {
     text-decoration: none;  /* removes default underline from the menu items */
     color: inherit; /* inherits text color frrom body element as this is only ascendant to have text color set */
 }
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;  /* bottom border creates an underline effect when user hovers over the menu elements */
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
