@@ -55,8 +55,32 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Creates clearance between the header and the image */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 600px;  /*SETS HEIGHT OF THE DIV HOLDING THE HERO IMAGE */
     width: 100%;    /* fills screen width */
-    background: url('../images/hero-image.webp') no repeat center center; /*up one level to css folder, then find file in images folder, wont repeat if smaller than window, center vertically and horizontally */
+    background: url('../images/hero-image.webp') no-repeat center center; /*up one level to css folder, then find file in images folder, wont repeat if smaller than window, center vertically and horizontally */
+
+    /* animation runs when image loads */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; /* reatains final state after animation has run, doesnt revert back to initial state */
+}
+
+
+/* creates the level of zoom or apparent animation for the hero image on start up */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+
 }
