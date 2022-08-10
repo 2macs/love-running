@@ -32,8 +32,17 @@ h1, h2 {
     letter-spacing: 4px;  /*consistent with logo */
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px; /*give the link some space */
+}
+
+#menu a {
+    text-decoration: none;  /* removes default underline from the menu items */
+    color: inherit; /* inherits text color frrom body element as this is only ascendant to have text color set */
 }
