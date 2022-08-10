@@ -54,3 +54,9 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+#hero-image {
+    height: 600px;  /*SETS HEIGHT OF THE DIV HOLDING THE HERO IMAGE */
+    width: 100%;    /* fills screen width */
+    background-image: url(../Images/hero-image.webp) no repeat center center; /*up one level to css folder, then find file in images folder, wont repeat if smaller than window, center vertically and horizontally */
+}
