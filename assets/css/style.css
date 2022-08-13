@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;  /* moves the margin 30px in from left, doesnt hug the page
 }
 
 #menu {
@@ -106,4 +107,30 @@ h1, h2 {
     bottom:30px;  /* fix the position of the text box absolute to image */
     right: 150px;
     position: absolute;
+}
+
+/* styling for club ethos */
+
+#club-ethos{
+    height: 600px; /*consistent with height on main page */
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    background-color: green;
+    width: 33%;
+    margin: 0 auto;  /* This centers this Div , there is no float-center option, the order of the divs is important for this to work */
 }
