@@ -247,3 +247,33 @@ footer {
 #photos > img {
     width: 100%; /* each image fills the column width, so image cant be too big or small for the column */
 }
+
+/* To style for phone and tablet screens we can use media queries, these only run when a condition is met */
+
+@media screen and (max-width:1200px) {
+    #club-ethos {
+        width:65%;
+        height: 1200px;
+        margin: 0 auto;  /* center the content */
+    }
+    #welcome {
+        padding:30px 0;
+        margin: 0; /* managfe vertical gap */
+    }
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0px;
+    }
+    #center-about {
+        clear: both;
+        width: 100%;
+        padding: 0%;
+        float: left;
+    }
+
+    hr {
+        display: none;
+    }
+    
+}
