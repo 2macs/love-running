@@ -136,7 +136,6 @@ hr {
 }
 
 #center-about {
-    background-color: green;
     width: 33%;
     margin: 0 auto;  /* This centers this Div , there is no float-center option, the order of the divs is important for this to work */
 }
@@ -163,5 +162,29 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0; /*pushes heading down 50 px */ 
+    font-size: 280%;
+}
+
+/* create a light grey circular border around the circular image */
+#circle-container {
+width:300px;
+height:300px;
+padding:30px;
+border-style: solid;
+border-color: #ccc;
+border-width: 1px;
+border-radius: 50%;  /* Turns a square into a circle, if not square you get a ellipse */
+margin: 0 auto; /* centers the circle within the parent block */
+}
+
+#circle-cover-bg {
+    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    height: 100%;  /* Sets height to 100% of parent Div, if not set, image will not be displayed */
+    border-radius: 50%;  /* Turns a square into a circle, if not square you get a ellipse */
 }
 
