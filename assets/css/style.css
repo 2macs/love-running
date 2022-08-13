@@ -188,3 +188,15 @@ margin: 0 auto; /* centers the circle within the parent block */
     border-radius: 50%;  /* Turns a square into a circle, if not square you get a ellipse */
 }
 
+/* Meeting Times styling */
+
+#times {
+    background-image: url(../images/dublin-city.webp);
+    background-repeat: no-repeat;
+    background-size: cover; /* image fills the size allocated */
+    background-position: center;
+    width:100%;
+    overflow:hidden; /* [prevents the image from overflowing to other areas */
+
+}
+
