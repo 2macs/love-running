@@ -233,5 +233,17 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
 
+
+/* Gallery stuff */
+#photos {
+    clear: both;  /*causes the images to display below the header */
+    line-height: 0;  /* removes gaps between the images */
+    column-count: 4; /* creates 4 columns for the images to sit in */
+    column-gap: 0px; /* removes gaps between vertical columns */
+}
+
+#photos > img {
+    width: 100%; /* each image fills the column width, so image cant be too big or small for the column */
 }
