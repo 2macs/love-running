@@ -119,14 +119,20 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+    
+}
+
+hr {
+    width: 100%;
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0; 
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+    
 }
 
 #center-about {
@@ -134,3 +140,28 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;  /* This centers this Div , there is no float-center option, the order of the divs is important for this to work */
 }
+
+.left-about-heading {
+    width: 60%;
+    float: right;  /* align text to the image */
+    line-height: 20px; /* ease of reading */
+    clear: both; /* aligns top and bottom div vertically */
+    margin-bottom: 50px; /* maintain a space between the divs */
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;  /* align text to the image */
+    line-height: 20px; /* ease of reading */
+    clear: both; /* aligns top and bottom div vertically */
+    margin-bottom: 50px; /* maintain a space between the divs */
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
