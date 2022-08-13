@@ -197,6 +197,22 @@ margin: 0 auto; /* centers the circle within the parent block */
     background-position: center;
     width:100%;
     overflow:hidden; /* [prevents the image from overflowing to other areas */
+}
 
+/* Each div in the section is a child of the times section */
+#times div {
+    color: #fafafa;
+    width:20%;  /* there are 5 panels */
+    background-color: rgba(0, 0, 0, 0.6); /* make background slightly Opaque to emaphasise the text  */
+    height: 300px; 
+    float: left;  /* Panels to display horizontally */
+    text-align: center;
+    padding: 30px 0 0 10px;  /* 30 px from top, 10px from left */
+    border: 2px solid white;  /*create a white border around each div */
+    box-sizing: border-box; /*includes the border size in the 20% div width */
+}
+
+#times h2 {
+    color: #fafafa;
 }
 
