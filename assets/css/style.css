@@ -315,9 +315,22 @@ footer {
         text-align: center;
      }
 
+     
+
      .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding-left: 20px;
         padding-right: 20px;
+     }
+/*reduce gallery width to 3 columns for 950 px screens */
+     #photos {
+        column-count: 3;
+     }
+}
+
+/* for very small screens how to handle the gallery */
+@media screen and (max-width: 950px) {
+    #photos {
+        column-count: 2;
      }
 }
