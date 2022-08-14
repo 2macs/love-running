@@ -272,6 +272,14 @@ footer {
         float: left;
     }
 
+    /* style the times section for screens <1200px, Tablets */
+    #times > div {
+        width:100%;  /* as screen gets smaller images will stack vertically and fill width */
+        clear: both; /* stacks images vertically */
+        height: 150px;
+        padding: 0; /* overwrites any default padding values */
+    }
+
     hr {
         display: none;
     }
