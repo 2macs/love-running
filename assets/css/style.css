@@ -248,7 +248,7 @@ footer {
     width: 100%; /* each image fills the column width, so image cant be too big or small for the column */
 }
 
-/* To style for phone and tablet screens we can use media queries, these only run when a condition is met */
+/* To style for phone and tablet screens we can use media queries, these only run when a condition is met <1200px screen size*/
 
 @media screen and (max-width:1200px) {
     #club-ethos {
@@ -276,4 +276,16 @@ footer {
         display: none;
     }
     
+}
+
+/* style header for less than 950 px screen size i.e. phones */
+
+@media screen and (max-width: 950px) {
+    #menu {  /* Pushes menu items to the left of the screen and gievs space to keep them clean */
+        clear:left;
+        float:left;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
 }
